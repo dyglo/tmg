@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Tafar Mabi</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="./js/main.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Tafar Mabi</div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-button">Home</a></li>
+                    <li><a href="about.html" class="nav-button">About</a></li>
+                    <li><a href="projects.html" class="nav-button active">Projects</a></li>
+                    <li><a href="index.html#contact" class="nav-button">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="projects">
+            <div class="projects-overlay"></div>
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="data-science">Data Science</button>
+                    <button class="filter-btn" data-filter="computer-vision">Computer Vision</button>
+                    <button class="filter-btn" data-filter="machine-learning">Machine Learning</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-item data-science">
+                        <img src="images/choong-deng-xiang--WXQm_NTK0U-unsplash.jpg" alt="Data Visualization Dashboard">
+                        <h3>Data Visualization Dashboard</h3>
+                        <p>Interactive dashboard showcasing various data insights using D3.js and React.</p>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary" data-modal="modal-1">View Details</a>
+                            <a href="#" class="btn btn-secondary" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+
+                    <div class="project-item computer-vision">
+                        <img src="images/330px-Detected-with-YOLO--Schreibtisch-mit-Objekten.jpg" alt="Real-time Object Detection">
+                        <h3>Real-time Object Detection</h3>
+                        <p>A computer vision project using YOLO for real-time object detection in video streams.</p>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary" data-modal="modal-2">View Details</a>
+                            <a href="#" class="btn btn-secondary" target="_blank">GitHub Repo</a>
+                        </div>
+                    </div>
+
+                    <div class="project-item machine-learning">
+                        <img src="images/possessed-photography-g29arbbvPjo-unsplash.jpg" alt="Predictive Maintenance Model">
+                        <h3>Predictive Maintenance Model</h3>
+                        <p>Machine learning model to predict equipment failures in industrial settings.</p>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary" data-modal="modal-3">View Details</a>
+                            <a href="#" class="btn btn-secondary" target="_blank">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos="fade-up">
+                        <div class="skill-icon" style="background-color: #3498db;">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="skill-content">
+                            <h3>Node.js</h3>
+                            <p>Server-side JavaScript runtime</p>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-icon" style="background-color: #e74c3c;">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="skill-content">
+                            <h3>Python</h3>
+                            <p>Versatile programming language</p>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="skill-icon" style="background-color: #2ecc71;">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="skill-content">
+                            <h3>SQL</h3>
+                            <p>Database management and querying</p>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="skill-icon" style="background-color: #f39c12;">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="skill-content">
+                            <h3>React</h3>
+                            <p>Frontend JavaScript library</p>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="skill-icon" style="background-color: #9b59b6;">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="skill-content">
+                            <h3>Machine Learning</h3>
+                            <p>AI and predictive modeling</p>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="skill-icon" style="background-color: #1abc9c;">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="skill-content">
+                            <h3>Computer Vision</h3>
+                            <p>Image and video processing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tafar Mabi</h3>
+                    <p>Data Scientist & Computer Vision Engineer</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Tafar Mabi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Skill cards animation
+            anime({
+                targets: '.skill-card',
+                scale: [0.9, 1],
+                opacity: [0, 1],
+                translateY: [20, 0],
+                delay: anime.stagger(100, {start: 300}),
+                easing: 'easeOutExpo'
+            });
+        });
+    </script>
+</body>
+</html>

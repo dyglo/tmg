@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tafar Mabi - Data Scientist & Computer Vision Engineer</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Tafar Mabi</div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-button">Home</a></li>
+                    <li><a href="about.html" class="nav-button">About</a></li>
+                    <li><a href="projects.html" class="nav-button">Projects</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div id="neural-network-bg"></div>
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Tafar Mabi">Tafar Mabi</h1>
+                <h2 id="typed-output" class="profession"></h2>
+                <p class="tagline">Transforming data into insights and pixels into intelligence</p>
+                <div class="cta-container">
+                    <a href="#projects" class="cta-button animated-hover">View My Work</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <img src="images/profile-pic.jpg" alt="Tafar Mabi" class="profile-pic">
+                    <div class="about-text">
+                        <p>Hello! I'm Tafar Mabi, a passionate Data Scientist and Computer Vision Engineer with a keen interest in solving complex problems using cutting-edge technologies.</p>
+                        <p>With expertise in machine learning, deep learning, and image processing, I strive to create innovative solutions that bridge the gap between data and real-world applications.</p>
+                        <a href="about.html" class="btn">About Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="projects-overlay"></div>
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="data-science">Data Science</button>
+                    <button class="filter-btn" data-filter="computer-vision">Computer Vision</button>
+                    <button class="filter-btn" data-filter="machine-learning">Machine Learning</button>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project items will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-content">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-list">
+                            <span class="skill-item" style="background-color: #3498db;">Python</span>
+                            <span class="skill-item" style="background-color: #e74c3c;">R</span>
+                            <span class="skill-item" style="background-color: #2ecc71;">C++</span>
+                            <span class="skill-item" style="background-color: #f39c12;">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Machine Learning</h3>
+                        <div class="skill-list">
+                            <span class="skill-item" style="background-color: #9b59b6;">TensorFlow</span>
+                            <span class="skill-item" style="background-color: #34495e;">PyTorch</span>
+                            <span class="skill-item" style="background-color: #16a085;">Scikit-learn</span>
+                            <span class="skill-item" style="background-color: #d35400;">Keras</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Computer Vision</h3>
+                        <div class="skill-list">
+                            <span class="skill-item" style="background-color: #27ae60;">OpenCV</span>
+                            <span class="skill-item" style="background-color: #8e44ad;">Image Processing</span>
+                            <span class="skill-item" style="background-color: #c0392b;">Object Detection</span>
+                            <span class="skill-item" style="background-color: #2980b9;">Facial Recognition</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Data Analysis</h3>
+                        <div class="skill-list">
+                            <span class="skill-item" style="background-color: #1abc9c;">Pandas</span>
+                            <span class="skill-item" style="background-color: #f1c40f;">NumPy</span>
+                            <span class="skill-item" style="background-color: #e67e22;">Matplotlib</span>
+                            <span class="skill-item" style="background-color: #3498db;">Seaborn</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <div class="publications-overlay"></div>
+            <div class="container">
+                <h2 class="section-title">Publications</h2>
+                <div class="publications-list">
+                    <div class="publication-item">
+                        <h3>Advanced Object Detection in Complex Environments</h3>
+                        <p class="authors">Mabi, T., Smith, J., & Johnson, A.</p>
+                        <p class="journal">Journal of Computer Vision and Pattern Recognition, 2023</p>
+                        <a href="#" class="btn btn-primary">Read Paper</a>
+                    </div>
+                    <div class="publication-item">
+                        <h3>Efficient Deep Learning Models for Edge Devices</h3>
+                        <p class="authors">Mabi, T., & Brown, R.</p>
+                        <p class="journal">IEEE Transactions on Neural Networks and Learning Systems, 2022</p>
+                        <a href="#" class="btn btn-primary">Read Paper</a>
+                    </div>
+                    <div class="publication-item">
+                        <h3>Novel Approaches to Facial Recognition in Diverse Populations</h3>
+                        <p class="authors">Mabi, T., Lee, S., & Garcia, M.</p>
+                        <p class="journal">International Conference on Computer Vision (ICCV), 2021</p>
+                        <a href="#" class="btn btn-primary">Read Paper</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-content">
+                    <form id="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out for collaborations or just a friendly hello</p>
+                        <ul class="contact-details">
+                            <li><i class="fas fa-envelope"></i> <a href="mailto:tafar.mabi@example.com">greetmeasap@gmail.com</a></li>
+                            <li><i class="fas fa-phone"></i> <a href="tel:+256785735108">+256 (785) 735-108</a></li>
+                            <li><i class="fas fa-map-marker-alt"></i> Kampala, UG</li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tafar Mabi</h3>
+                    <p>Data Scientist & Computer Vision Engineer</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Tafar Mabi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
